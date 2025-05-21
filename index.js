@@ -7,7 +7,7 @@ require('dotenv').config();
 app.use(express.json());
 app.use('/api', schoolRoutes);
 app.get('/', (req, res) => {
-  res.send('School Management API is running');
+  res.send('School Management API is running successfully');
 });
 
 
